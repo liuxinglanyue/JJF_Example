@@ -10,5 +10,6 @@
 	<classpathentry kind="lib" path="lib/log4j-1.2.15.jar"/>
 	<classpathentry kind="lib" path="lib/MemoryMeasurer.jar"/>
 	<classpathentry kind="lib" path="lib/object-explorer.jar"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.3.jar" sourcepath="lib/commons-codec-1.3-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
