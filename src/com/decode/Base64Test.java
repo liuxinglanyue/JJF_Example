@@ -20,6 +20,9 @@ public class Base64Test {
 	 * @return
 	 */
 	public static String encodeStr(String text) {
+		if(null == text) {
+			return null;
+		}
 		byte[] b = text.getBytes();
 		Base64 base64 = new Base64();
 		b = base64.encode(b);
@@ -32,6 +35,9 @@ public class Base64Test {
 	 * @return
 	 */
 	public static String decodeStr(String text) {
+		if(null == text) {
+			return null;
+		}
 		byte[] b = text.getBytes();
 		Base64 base64 = new Base64();
 		b = base64.decode(b);
