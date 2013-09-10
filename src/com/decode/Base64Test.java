@@ -9,7 +9,7 @@ import org.apache.commons.codec.binary.Base64;
  */
 public class Base64Test {
 	public static void main(String[] args) {
-		String imageInfo = "liuxinglanyue";
+		String imageInfo = "20371700672e09c1039972bd0f2db701";
 		System.out.println(imageInfo = encodeStr(imageInfo));
 		System.out.println(decodeStr(imageInfo));
 	}

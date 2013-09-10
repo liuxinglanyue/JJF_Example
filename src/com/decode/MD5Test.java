@@ -5,7 +5,7 @@ import org.apache.commons.codec.digest.DigestUtils;
 
 public class MD5Test {
 	public static void main(String[] args) {
-		String text = "我们哥俩好";
+		String text = "FD151D8B-1";
 		System.out.println(md5Hex(text));
 		System.out.println(shaHex(text));
 		System.out.println(md5ToBinary(text));
