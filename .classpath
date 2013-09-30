@@ -13,5 +13,6 @@
 	<classpathentry kind="lib" path="lib/commons-codec-1.3.jar" sourcepath="lib/commons-codec-1.3-sources.jar"/>
 	<classpathentry kind="lib" path="lib/asm-debug-all-5.0_ALPHA.jar" sourcepath="D:/workspace/Open Source/myGit/java-jar/java-jar/Java/ASM/asm-5.0_ALPHA/src.zip"/>
 	<classpathentry kind="lib" path="lib/servlet-api-2.5.jar" sourcepath="lib/servlet-api-2.5-sources.jar"/>
+	<classpathentry kind="lib" path="lib/mongo-java-driver-2.9.3.jar" sourcepath="lib/mongo-java-driver-2.9.3-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
