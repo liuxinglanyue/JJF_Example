@@ -11,7 +11,7 @@ public class Test {
 			Auto auto = method.getAnnotation(Auto.class);
 			System.out.println("autoT= " + auto.autoT() + "  name=" + auto.name());
 		}
-		Class class1 = Class.forName("com.annotation.my.Subject");
+		Class<?> class1 = Class.forName("com.annotation.my.Subject");
 		Method method = class1.getDeclaredMethod("request", new Class[]{int.class, String.class});
 		method.setAccessible(true);
 		method.invoke(class1.newInstance(), new Object[]{4, "jjftto"});
