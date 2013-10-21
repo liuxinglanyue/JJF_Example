@@ -24,5 +24,9 @@ public class StringTest {
         for(int i=0;i<array.length;i++){  
             System.out.println(array[i]);  
         }  
+        
+        String jjf = "liuxinglanyue·jiao";
+        System.out.println(jjf.indexOf("·"));
+        
     }  
 }

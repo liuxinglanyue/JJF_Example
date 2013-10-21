@@ -14,5 +14,14 @@
 	<classpathentry kind="lib" path="lib/asm-debug-all-5.0_ALPHA.jar" sourcepath="D:/workspace/Open Source/myGit/java-jar/java-jar/Java/ASM/asm-5.0_ALPHA/src.zip"/>
 	<classpathentry kind="lib" path="lib/servlet-api-2.5.jar" sourcepath="lib/servlet-api-2.5-sources.jar"/>
 	<classpathentry kind="lib" path="lib/mongo-java-driver-2.9.3.jar" sourcepath="lib/mongo-java-driver-2.9.3-sources.jar"/>
+	<classpathentry kind="lib" path="lib/netty-3.2.4.Final.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-nop-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/fqueue-0.1.1-release.jar"/>
+	<classpathentry kind="lib" path="lib/disruptor-3.2.0.jar" sourcepath="lib/disruptor-3.2.0-sources.jar"/>
+	<classpathentry kind="lib" path="lib/ehcache-2.7.4.jar" sourcepath="D:/workspace/Open Source/myGit/java-jar/java-jar/Cache/ehcache-2.7.4/src"/>
+	<classpathentry kind="lib" path="lib/oscache-2.4.1.jar" sourcepath="D:/workspace/Open Source/myGit/java-jar/java-jar/Cache/oscache-2.4.1-full/src"/>
+	<classpathentry kind="lib" path="lib/com.springsource.org.junit-4.9.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
