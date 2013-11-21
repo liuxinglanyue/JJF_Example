@@ -1,5 +1,6 @@
 package com.decode;
 
+
 import org.apache.commons.codec.binary.BinaryCodec;
 import org.apache.commons.codec.digest.DigestUtils;
 
@@ -31,4 +32,6 @@ public class MD5Test {
 		}
 		return new String(BinaryCodec.toAsciiBytes(DigestUtils.md5(text)));
 	}
+
+
 }

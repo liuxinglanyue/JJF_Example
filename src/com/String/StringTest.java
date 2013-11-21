@@ -3,6 +3,8 @@ package com.String;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.lang.StringUtils;
+
 public class StringTest {
 	/*public static void main(String[] args) {
 		String tt = "我们是粤语321084x768.jpg";
@@ -25,8 +27,8 @@ public class StringTest {
             System.out.println(array[i]);  
         }  
         
-        String jjf = "liuxinglanyue·jiao";
-        System.out.println(jjf.indexOf("·"));
+        String jjf = "liu-xin-gla-nyue-jiao";
+        System.out.println(StringUtils.replace(jjf, "-", ","));
         
     }  
 }
